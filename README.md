@@ -10,4 +10,4 @@ Mi portafolio web.
 |Light Silver |#d2d8d8      |
 |Vampire Black|#050505      |
 
-Información relacionada al nombre del color tomada de [color-name.com] (https://www.color-name.com/)
+Información relacionada al nombre del color tomada de [color-name.com](https://www.color-name.com/)
