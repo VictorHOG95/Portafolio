@@ -24,7 +24,14 @@ a {
   justify-content: center;
 }
 
-/* Sección */
+/* Sección Hero*/
+#hero .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: 50px;
+}
+
 #hero h1 {
   color: #050505;
 }
@@ -48,6 +55,7 @@ a {
 }
 
 #hero h2:nth-child(3) {
+    animation: text_reveal_description .5s ease forwards;
   animation-delay: 3s;
 }
 
@@ -120,4 +128,10 @@ a {
     color: #050505;
   }
 }
+
+@keyframes text_reveal_description {
+    100% {
+      color: #2aaabb;
+    }
+  }
 /* End Keyframes */
