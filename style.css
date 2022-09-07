@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #d2d8d8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sección */
+#hero h1 {
+  color: #050505;
+}
+
+#hero h2 {
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: #050505;
+}
+
+#hero h2 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #2aaabb;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
+}
+
+#hero h3 {
+  color: #2aaabb;
+}
+
+#hero p {
+  color: #050505;
+}
+
+#hero .cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #2aaabb;
+  background-color: transparent;
+  border: 2px solid #2aaabb;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+
+#hero .cta:hover {
+  color: #050505;
+  background-color: #2aaabb;
+}
+/* Final De Sección */
+
+/* Keyframes */
+@keyframes text_reveal_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+/* End Keyframes */
