@@ -24,12 +24,21 @@ a {
   justify-content: center;
 }
 
+img {
+}
+
+/* p {
+  color: #050505;
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+} */
 /* Sección Hero*/
 #hero .hero {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 50px;
-    justify-content: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  justify-content: 50px;
 }
 
 #hero h1 {
@@ -55,11 +64,11 @@ a {
 }
 
 #hero h2:nth-child(3) {
-    animation: text_reveal_description .5s ease forwards;
+  animation: text_reveal_description 0.5s ease forwards;
   animation-delay: 3s;
 }
 
-/* Si solo se deja span, se crea una animación de toda la */
+/* Si solo se deja span, se crea una animación de toda la pantalla*/
 #hero h2 span {
   position: absolute;
   top: 0;
@@ -68,19 +77,19 @@ a {
   width: 0;
   background-color: #2aaabb;
   animation: text_reveal_box 1s ease;
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 
-#hero h2:nth-child(1) span{
-    animation-delay: .5s;
+#hero h2:nth-child(1) span {
+  animation-delay: 0.5s;
 }
 
-#hero h2:nth-child(2) span{
-    animation-delay: 1.5s;
+#hero h2:nth-child(2) span {
+  animation-delay: 1.5s;
 }
 
-#hero h2:nth-child(3) span{
-    animation-delay: 2.5s;
+#hero h2:nth-child(3) span {
+  animation-delay: 2.5s;
 }
 
 #hero h3 {
@@ -111,6 +120,85 @@ a {
 }
 /* Final De Sección */
 
+/* Sección De Otros Proyectos */
+#other-projects {
+}
+#other-projects .other-projects {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0; /**/
+}
+
+#other-projects .section-title {
+  /* font-size: 4rem;
+  font-weight: 300; */
+  font-size: 3rem;
+  font-weight: 300;
+  color: #050505;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+/* Esto se puede borrar */
+#other-projects .other-projects-top p {
+  font-size: 1.4rem;
+  margin-top: 5px;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+#other-projects .other-projects-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#other-projects .other-projects-item {
+  flex-basis: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  /* border-radius: 10px; */
+  background-color: #d2d8d8;
+  margin: 8px 5%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+#other-projects .other-projects-item .icon {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+#other-projects .other-projects-item h2 {
+  font-size: 2rem;
+  color: #050505;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#other-projects .other-projects-item p {
+  color: #050505;
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  margin-bottom: 10px;
+}
+
+#other-projects .other-projects-item ul > li {
+  display: inline-block;
+}
+
+/* Finn De Sección De Otros Proyectos */
+
 /* Keyframes */
 @keyframes text_reveal_box {
   50% {
@@ -130,8 +218,8 @@ a {
 }
 
 @keyframes text_reveal_description {
-    100% {
-      color: #2aaabb;
-    }
+  100% {
+    color: #2aaabb;
   }
+}
 /* End Keyframes */
