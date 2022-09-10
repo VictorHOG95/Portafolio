@@ -25,14 +25,35 @@ a {
 }
 
 img {
+  height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
-/* p {
+/*  font-size: 1.4rem;
+  margin-top: 5px;
+  font-weight: 300;
+  letter-spacing: 0.05rem; */
+p {
   color: #050505;
-  text-align: left;
+  text-align: left;/**/
   font-size: 1.4rem;
-  line-height: 1.9rem;
-} */
+  margin-top: 5px;
+  /* line-height: 1.9rem; */
+} 
+
+.section-title {
+  /* font-size: 4rem;
+  font-weight: 300; */
+  font-size: 3rem;
+  font-weight: 300;
+  color: #050505;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
 /* Sección Hero*/
 #hero .hero {
   max-width: 1200px;
@@ -118,29 +139,81 @@ img {
   color: #050505;
   background-color: #2aaabb;
 }
+
 /* Final De Sección */
 
-/* Sección De Otros Proyectos */
-#other-projects {
+/* Seccion De proyectos */
+#projects .projects {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
+
+#projects .projects-header h1 {
+  margin-bottom: 50 px;
+}
+
+#projects .all-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#projects .project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+#projects .project-img{
+  flex-basis: 50%;
+  /*height: 300px;/*image height css doesn't work*/
+  max-height: 300px;
+  overflow: hidden;
+
+}
+
+#projects .project-info {
+  padding: 30px;
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#projects .project-info h1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+#projects .project-info h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+#projects .project-info ul > li {
+  display: inline-block;
+}
+
+/* Final De Seccion De proyectos */
+
+/* Sección De Otros Proyectos */
 #other-projects .other-projects {
   flex-direction: column;
   text-align: center;
   max-width: 1500px;
   margin: 0 auto;
   padding: 100px 0; /**/
-}
-
-#other-projects .section-title {
-  /* font-size: 4rem;
-  font-weight: 300; */
-  font-size: 3rem;
-  font-weight: 300;
-  color: #050505;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  text-align: center;
 }
 
 /* Esto se puede borrar */
