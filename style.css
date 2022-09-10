@@ -54,6 +54,25 @@ p {
   text-align: center;
 }
 
+.cta {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #2aaabb;
+  background-color: transparent;
+  border: 2px solid #2aaabb;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 30px;
+  transition: 0.3s ease;
+  transition-property: background-color, color;
+}
+
+.cta:hover {
+  color: #050505;
+  background-color: #2aaabb;
+}
+
 /* Sección Hero*/
 #hero .hero {
   max-width: 1200px;
@@ -121,26 +140,59 @@ p {
   color: #050505;
 }
 
-#hero .cta {
-  display: inline-block;
-  padding: 10px 30px;
-  color: #2aaabb;
-  background-color: transparent;
-  border: 2px solid #2aaabb;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  margin-top: 30px;
-  transition: 0.3s ease;
-  transition-property: background-color, color;
-}
-
-#hero .cta:hover {
-  color: #050505;
-  background-color: #2aaabb;
-}
-
 /* Final De Sección */
+
+/* Seccion Acerca De Mi */
+#about .about {
+  flex-direction: column;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+#about .col-left {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#about .col-left h2{
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: .2rem;
+  margin-bottom: 10px;
+}
+
+#about .col-left p {
+  margin-bottom: 20px
+}
+
+#about .col-right {
+  width: 250px;
+  height: 360px;
+}
+
+#about .col-right .cta {
+  margin-top: 50px;
+  /* padding: 10px 20px; */
+  font-size: 2rem;
+}
+
+#about .col-right .about-img {
+  position: relative;
+}
+
+#about .col-right .about-img::after {
+  content: '';
+  position: absolute;
+  left: -33px;
+  top: 19px;
+  height: 65%;
+  width: 98%;
+  border: 7px solid #2aaabb;
+  z-index: -1;
+}
+/* Fin De Seccion Acerca De Mi */
 
 /* Seccion De proyectos */
 #projects .projects {
