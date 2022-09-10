@@ -325,6 +325,18 @@ p {
 
 /* Finn De Sección De Otros Proyectos */
 
+/* Seccion De Contacto */
+#contact .contact {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#contact .contact p{
+  margin: 5px 10%;
+}
+/* Fin De Seccion De Contacto */
+
 /* Keyframes */
 @keyframes text_reveal_box {
   50% {
