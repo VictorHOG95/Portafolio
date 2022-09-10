@@ -330,12 +330,33 @@ p {
   flex-direction: column;
   max-width: 1200px;
   margin: 0 auto;
+  min-height: 50vh;
 }
 
 #contact .contact p{
   margin: 5px 10%;
 }
 /* Fin De Seccion De Contacto */
+
+/* Footer */
+footer .footer{
+  min-height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+footer .social-icon {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+footer .social-item {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+}
+/* Fin De Footer */
 
 /* Keyframes */
 @keyframes text_reveal_box {
