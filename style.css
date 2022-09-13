@@ -212,8 +212,8 @@ p {
 
 #experience .experience-button {
   cursor: pointer;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 
 #experience .experience-button:hover {
@@ -397,10 +397,10 @@ p {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
-#other-projects .other-projects-item .icon {
-  height: 60px;
-  width: 60px;
+#other-projects .other-projects-item i{
+  font-size: 40px;
   margin-bottom: 10px;
+  color: #050505;
 }
 
 #other-projects .other-projects-item h2 {
@@ -451,9 +451,18 @@ footer .social-icon {
 }
 
 footer .social-item {
-  height: 50px;
-  width: 50px;
+  /* height: 50px;
+  width: 50px; */
   margin: 0 10px;
+}
+
+footer .social-item i {
+  color: #050505;
+  font-size: 50px;
+}
+
+footer .social-item i:hover {
+  color: #2aaabb;
 }
 /* Fin De Footer */
 
@@ -474,9 +483,15 @@ footer .social-item {
   background-color: #2aaabb;
 }
 
-.scrollup img {
+/* .scrollup img {
   height: 25px;
   width: 25px;
+} */
+
+.scrollup i {
+  color: #d2d8d8;
+  font-size: 25px;
+  margin: 2px;
 }
 
 /* Show Scroll */
