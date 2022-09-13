@@ -231,9 +231,9 @@ p {
   /* color: #050505; */
 }
 
-#experience .experience-content {
-  /* width: 80%; */
-}
+/* #experience .experience-content {
+   width: 80%; 
+} */
 
 #experience .experience-item {
   display: grid;
