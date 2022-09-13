@@ -204,7 +204,7 @@ p {
 
 #experience .experience-tabs {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: space-evenly;
   margin-top: 50px;
   margin-bottom: 30px;
@@ -212,6 +212,8 @@ p {
 
 #experience .experience-button {
   cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #experience .experience-button:hover {
@@ -231,9 +233,9 @@ p {
   /* color: #050505; */
 }
 
-/* #experience .experience-content {
-   width: 80%; 
-} */
+#experience .experience-content {
+  margin: 0px 30px;
+} 
 
 #experience .experience-item {
   display: grid;
@@ -258,6 +260,7 @@ p {
 #experience .experiencia-calendar {
   font-size: 1.3rem;
   color: #050505;
+  margin-bottom: 20PX;
 }
 
 #experience .experiencia-rounder {
