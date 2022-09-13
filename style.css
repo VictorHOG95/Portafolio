@@ -194,6 +194,89 @@ p {
 }
 /* Fin De Seccion Acerca De Mi */
 
+/* Seccion De Experiencia */
+#experience .experience {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+#experience .experience-tabs {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#experience .experience-button {
+  cursor: pointer;
+}
+
+#experience .experience-button:hover {
+  color: #2aaabb;
+}
+
+#experience .experience-button span {
+  /* color: #050505; */
+  /* text-align: left;  */
+  font-size: 1.6rem;
+  /* margin-top: 5px; */
+}
+
+#experience .experience-button i {
+  font-size: 15px;
+  margin-right: 5px;
+  /* color: #050505; */
+}
+
+#experience .experience-content {
+  /* width: 80%; */
+}
+
+#experience .experience-item {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em; */
+}
+
+#experience .experienceia-title {
+  font-size: 1.6rem;
+  /* font-weight: 600; */
+}
+
+#experience .experienceia-subtitle {
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+#experience .experiencia-calendar {
+  font-size: 1.3rem;
+  color: #050505;
+}
+
+#experience .experiencia-rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #2aaabb;
+  border-radius: 50%;
+}
+
+#experience .experiencia-line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #2aaabb;
+  transform: translate(6px, -7px);
+}
+/* Fin De Seccion De Experiencia */
+
 /* Seccion De proyectos */
 #projects .projects {
   flex-direction: column;
