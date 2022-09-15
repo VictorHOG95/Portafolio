@@ -1,6 +1,7 @@
 # Portafolio
-Mi portafolio web.
+## Mi portafolio web.
 
+Web SPA (Single Page Application) desarrollada como portafolio personal, por medio de la metodologia Mobile First utilizando tecnologias como HTML, CSS y Javascript.
 
 ## Paleta de colores
 
