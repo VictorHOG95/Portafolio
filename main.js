@@ -33,6 +33,7 @@ window.addEventListener('scroll', scrollUp);
 /**/
 const menu_btn_hamburger = document.querySelector('.hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
+const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
 const header = document.querySelector('.header.container');
 
 menu_btn_hamburger.addEventListener('click', function () {
@@ -50,4 +51,12 @@ document.addEventListener('scroll', () => {
         header.style.backgroundColor = 'transparent';
         header.style.boxShadow = 'none';
     }
+});
+
+/*Cerrar menu mobil cuando se seleccione una opcion*/
+menu_item.forEach((item) => {
+    item.addEventListener('click', () => {
+        menu_btn_hamburger.classList.toggle('is-active');
+        mobile_menu.classList.toggle('active');
+    });
 });
