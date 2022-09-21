@@ -86,7 +86,8 @@ header {
 
 #header .header {
   min-height: 8vh;
-  background-color: #2aaabb;
+  /* background-color: #2aaabb; */
+  transition: .1s ease background-color;
 }
 
 #header .nav-bar {
