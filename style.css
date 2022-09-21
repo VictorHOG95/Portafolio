@@ -10,6 +10,8 @@ html {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
   background-color: #d2d8d8;
+  /* Desplazamiento suave de los enlaces a las secciones */
+  scroll-behavior: smooth;
 }
 
 a {
